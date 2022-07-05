@@ -704,6 +704,10 @@ video {
   width: 5rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .max-w-xs {
   max-width: 20rem;
 }
@@ -764,10 +768,6 @@ video {
 
 .align-baseline {
   vertical-align: baseline;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-serif {
@@ -870,16 +870,16 @@ video {
     margin-bottom: 5rem;
   }
 
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .lg\:ml-10 {
     margin-left: 2.5rem;
   }
 
   .lg\:mr-10 {
     margin-right: 2.5rem;
-  }
-
-  .lg\:mt-20 {
-    margin-top: 5rem;
   }
 
   .lg\:flex {
